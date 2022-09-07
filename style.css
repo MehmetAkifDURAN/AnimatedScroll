@@ -14,13 +14,13 @@ body {
 
 header,
 footer {
-    height: 100px;
-    background: #CDF0EA;
+    height: 10rem;
+    background-color: #CDF0EA;
 }
 
 main {
-    height: 2000px;
-    background: #FAF4B7;
+    height: 200rem;
+    background-color: #FAF4B7;
 }
 
 header {
