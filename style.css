@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+header,
+footer {
+    height: 100px;
+    background: #CDF0EA;
+}
+
+main {
+    height: 2000px;
+    background: #FAF4B7;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    font-size: 2.4rem;
+    background-color: #FFF;
+    color: #ECC5FB;
+    border: 2px solid #ECC5FB;
+    padding: 1.6rem .8rem;
+    outline: none;
+    transition: all .3s ease;
+}
+
+button:hover {
+    background-color: #ECC5FB;
+    color: #FFF;
+    border: 2px solid #ECC5FB;
+    cursor: pointer;
+}
